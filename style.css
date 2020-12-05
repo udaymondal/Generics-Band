@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,200&family=Raleway:ital,wght@0,200;0,900;1,300&display=swap');
 
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter\ -\ Zero\ Zero.woff"),
+         url("Fonts/Booter\ -\ Zero\ Zero.woff2")    
+}
+
 * {
     box-sizing: border-box;
     font-family: JetBrains Mono;
@@ -42,4 +48,11 @@ html, body{
     background-blend-mode: multiply;
     background-size: cover;
     padding: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 8em;
+    font-family: "Booter - Zero Zero"
 }
